@@ -45,7 +45,7 @@ return(
           color: "red",
           fontWeight: "medium",
           fontSize: "sm"
-        }} onpress={()=>Navigation.navigate(Registro)}>
+        }} onClick={()=>Navigation.navigate(Registro)}>
           Registrate aqui
         </Button>
       </HStack>
